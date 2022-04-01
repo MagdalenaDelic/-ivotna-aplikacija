@@ -1,58 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<body>
+  <body>
     <div class="container">
+      <h1>Koliko Vam života preostaje ?</h1>
+      <p>Uz pretpostavku da ćete živjeti do 90, Vama preostaje još . . .</p>
 
-        <h1>Koliko Vam života preostaje ?</h1>
-        <p>Uz pretpostavku da ćete živjeti do 90, Vama preostaje još . . .</p>
+      <div id="PrikazRezultata">
+        <div class="odgovori">
+          <div class="prikazOdgovora">
+            <p>Preostaje Vam još</p>
+            <h1 id="rezultat">0</h1>
+            <p>tjedana :(</p>
+          </div>
 
-        <div id="PrikazRezultata">
-
-            <div class="odgovori">
-                <div class="prikazOdgovora">
-                    <p>Preostaje Vam još</p>
-                    <h1 id="rezultat">0</h1>
-                    <p>tjedana :(</p>
-                </div>
-
-                <div class="alert2">
-                    <p id="upozorenje">Molimo, unesite svoje godine.</p>
-                </div>
-                <div class="alert3">
-                    <p id="upozorenje">Molimo, unesite broj manji od 90.</p>
-                </div>
-
-
-            </div>
+          <div class="alert2">
+            <p id="upozorenje">Molimo, unesite svoje godine.</p>
+          </div>
+          <div class="alert3">
+            <p id="upozorenje">Molimo, unesite broj manji od 90.</p>
+          </div>
         </div>
+      </div>
 
-        <div class="alert1">
-            <input type="number" id="unosGodina" placeholder="Unesite svoje godine...">
+      <div class="alert1">
+        <input
+          type="number"
+          id="unosGodina"
+          placeholder="Unesite svoje godine..."
+        />
+      </div>
 
-        </div>
+      <div class="buttons">
+        <button id="izracunaj">Izračunaj</button>
+        <button id="reset">Ponovno pokreni</button>
 
-        <div class="buttons">
-            <button id="izracunaj">Izračunaj</button>
-            <button id="reset">Ponovno pokreni</button>
-            
-            <a href="index.html" class="refresh">tekst</a>
-        </div>
-
-
-
+        <a href="index.html" class="refresh">tekst</a>
+      </div>
     </div>
 
     <script src="app.js"></script>
-
-</body>
-
+  </body>
 </html>
